@@ -1,0 +1,3 @@
+/media/liusheng/Projects/Projects/github/human_face_skin/DoerriesT/Separable-Subsurface-Scattering-Demo/20190829/libs/include/gli/build_ubuntu/CMakeFiles/rebuild_cache.dir
+/media/liusheng/Projects/Projects/github/human_face_skin/DoerriesT/Separable-Subsurface-Scattering-Demo/20190829/libs/include/gli/build_ubuntu/CMakeFiles/edit_cache.dir
+/media/liusheng/Projects/Projects/github/human_face_skin/DoerriesT/Separable-Subsurface-Scattering-Demo/20190829/libs/include/gli/build_ubuntu/CMakeFiles/gli_dummy.dir

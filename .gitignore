@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+#*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+#*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+.vs/
+Debug/
+Release/
+x64/
+SubsurfaceScattering/Debug/
+SubsurfaceScattering/Release/
+SubsurfaceScattering/x64/
+WavefrontObjToBinaryConverter/Debug/
+WavefrontObjToBinaryConverter/Release/
+WavefrontObjToBinaryConverter/x64/
+build-Separable-Subsurface-Scattering-Demo-unknown-Debug/
+build-Separable-Subsurface-Scattering-Demo-unknown-Release/
+backup20201127/
+mixed/
+.idea/
+

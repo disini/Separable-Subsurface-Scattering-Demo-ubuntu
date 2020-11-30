@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1cad52a3-9ec8-4b43-9a5f-b223197d5c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vulkan">
+      <UniqueIdentifier>{e732575d-8023-4426-8a08-55d352716c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{e47e188f-e35b-4c5b-86a8-c8959806ed79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{4a5f243e-e7cf-428e-aeda-c7d1eac74291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{9673f507-7486-4be3-9181-a56249712c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vulkan\pipelines">
+      <UniqueIdentifier>{48ec4212-e305-46ed-bb23-fa341e1a761d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{918cca7a-dee0-4ba4-a135-672f2de30aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4ee99052-c53d-47d7-b7d0-50f17476121c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\VS">
+      <UniqueIdentifier>{034de4a0-5105-4c5a-96c7-e04312e4331c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\FS">
+      <UniqueIdentifier>{b54493cc-8d0b-48dc-8dbe-53fee274c118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\SPIR-V">
+      <UniqueIdentifier>{31d2888e-6d10-489b-9d84-bfb3bcbeaf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\comp">
+      <UniqueIdentifier>{2cfe4a71-2b9b-4ce1-ae73-64d9444bcf6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\volk.c">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Utility.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\ContainerUtility.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\UserInput.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Timer.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VKContext.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SwapChain.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Renderer.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\ShaderModule.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\ShadowPipeline.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VKUtility.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Mesh.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\ArcBallCamera.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Texture.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\SkyboxPipeline.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\SSSBlurPipeline.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\PostprocessingPipeline.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\pipelines\LightingPipeline.cpp">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_glfw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_vulkan.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\RenderResources.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Buffer.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Image.cpp">
+      <Filter>src\vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vulkan\volk.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Utility.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\ContainerUtility.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\IInputListener.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\InputTokens.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\UserInput.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Timer.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\VKContext.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\SwapChain.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Renderer.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\ShaderModule.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\ShadowPipeline.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\VKUtility.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Mesh.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\ArcBallCamera.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Texture.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\SkyboxPipeline.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\SSSBlurPipeline.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\PostprocessingPipeline.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Material.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\pipelines\LightingPipeline.h">
+      <Filter>src\vulkan\pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_glfw.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_vulkan.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\RenderResources.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Image.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\Buffer.h">
+      <Filter>src\vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\fullscreen_vert.vert">
+      <Filter>shaders\VS</Filter>
+    </None>
+    <None Include="resources\shaders\lighting_vert.vert">
+      <Filter>shaders\VS</Filter>
+    </None>
+    <None Include="resources\shaders\shadow_vert.vert">
+      <Filter>shaders\VS</Filter>
+    </None>
+    <None Include="resources\shaders\skybox_vert.vert">
+      <Filter>shaders\VS</Filter>
+    </None>
+    <None Include="resources\shaders\skybox_frag.frag">
+      <Filter>shaders\FS</Filter>
+    </None>
+    <None Include="resources\shaders\lighting_frag.frag">
+      <Filter>shaders\FS</Filter>
+    </None>
+    <None Include="resources\shaders\sssBlur_comp.comp">
+      <Filter>shaders\comp</Filter>
+    </None>
+    <None Include="resources\shaders\postprocess_comp.comp">
+      <Filter>shaders\comp</Filter>
+    </None>
+    <None Include="resources\shaders\fullscreen_vert.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\lighting_frag.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\lighting_frag_SSS.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\lighting_vert.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\postprocess_comp.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\shadow_vert.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\skybox_frag.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\skybox_vert.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+    <None Include="resources\shaders\sssBlur_comp.spv">
+      <Filter>shaders\SPIR-V</Filter>
+    </None>
+  </ItemGroup>
+</Project>

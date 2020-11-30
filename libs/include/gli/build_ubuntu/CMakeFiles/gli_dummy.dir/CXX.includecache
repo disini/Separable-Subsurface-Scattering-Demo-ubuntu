@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/liusheng/Projects/Projects/github/human_face_skin/DoerriesT/Separable-Subsurface-Scattering-Demo/20190829/libs/include/gli/core/dummy.cpp
+
