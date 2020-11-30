@@ -24,6 +24,7 @@ HEADERS += \
     SubsurfaceScattering/src/utility/ContainerUtility.h \
     SubsurfaceScattering/src/utility/Timer.h \
     SubsurfaceScattering/src/utility/Utility.h \
+    SubsurfaceScattering/src/utils/debugUtils.h \
     SubsurfaceScattering/src/vulkan/Buffer.h \
     SubsurfaceScattering/src/vulkan/Image.h \
     SubsurfaceScattering/src/vulkan/Material.h \
@@ -597,6 +598,7 @@ SOURCES += \
     SubsurfaceScattering/src/utility/ContainerUtility.cpp \
     SubsurfaceScattering/src/utility/Timer.cpp \
     SubsurfaceScattering/src/utility/Utility.cpp \
+    SubsurfaceScattering/src/utils/debugUtils.cpp \
     SubsurfaceScattering/src/vulkan/Buffer.cpp \
     SubsurfaceScattering/src/vulkan/Image.cpp \
     SubsurfaceScattering/src/vulkan/Mesh.cpp \

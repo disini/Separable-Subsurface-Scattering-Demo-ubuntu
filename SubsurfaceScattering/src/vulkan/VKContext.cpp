@@ -5,6 +5,7 @@
 #include <GLFW/glfw3.h>
 #include "utility/Utility.h"
 #include <cstring>
+#include "utils/debugUtils.h"
 
 const bool g_vulkanDebugCallBackEnabled = true; // requires VK_EXT_debug_utils extension
 
@@ -81,6 +82,19 @@ sss::vulkan::VKContext::VKContext(void *windowHandle)
 		createInfo.ppEnabledLayerNames = nullptr;
 		createInfo.enabledExtensionCount = static_cast<uint32_t>(extensions.size());
 		createInfo.ppEnabledExtensionNames = extensions.data();
+
+        if(enableValidationLayers && !checkValidationLayerSupport()) {
+            throw std::runtime_error("validation layers requested, but not available!");
+        }
+
+        if(enableValidationLayers) {
+            createInfo.enabledLayerCount = static_cast<uint32_t>(validationLayers.size());
+            createInfo.ppEnabledLayerNames = validationLayers.data();
+        } else {
+            createInfo.enabledLayerCount = 0;
+        }
+
+
 
 		if (vkCreateInstance(&createInfo, nullptr, &m_instance) != VK_SUCCESS)
 		{
