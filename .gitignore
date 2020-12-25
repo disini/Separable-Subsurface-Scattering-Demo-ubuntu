@@ -44,6 +44,8 @@ WavefrontObjToBinaryConverter/Release/
 WavefrontObjToBinaryConverter/x64/
 build-Separable-Subsurface-Scattering-Demo-unknown-Debug/
 build-Separable-Subsurface-Scattering-Demo-unknown-Release/
+build-Separable-Subsurface-Scattering-Demo-Desktop_Qt_5_15_1_GCC_64bit-Debug
+build-Separable-Subsurface-Scattering-Demo-Desktop_Qt_5_15_1_GCC_64bit-Release
 backup20201127/
 mixed/
 .idea/

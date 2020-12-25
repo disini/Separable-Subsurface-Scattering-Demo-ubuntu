@@ -27,11 +27,11 @@ using namespace sss;
 
 int main()
 {
-//	uint32_t width = 1600;
-//	uint32_t height = 900;
+    uint32_t width = 1600;
+    uint32_t height = 900;
 
-    uint32_t width = 1680;
-    uint32_t height = 1050;
+//    uint32_t width = 1680;
+//    uint32_t height = 1050;
 
     Window window(width, height, "Subsurface Scattering Demo");
 	UserInput userInput;
@@ -63,6 +63,7 @@ int main()
     {
         width = supportedResolutions[supportedResolutions.size()-2].first;
         height = supportedResolutions[supportedResolutions.size()-2].second;
+        window.resize(width, height);
     }
 
 	vulkan::Renderer renderer(window.getWindowHandle(), width, height);
